@@ -1,0 +1,74 @@
+.infarmation {
+    margin-top: 200px;
+
+    &__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item {
+        margin-top: 160px;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+
+
+    &__right {
+        max-width: 747px;
+        width: 100%;
+        height: 498px;
+    }
+
+    &__heading {
+        max-width: 445px;
+        width: 100%;
+        height: 96px;
+        font-size: 38px;
+        line-height: 48px;
+        color: #495567;
+    }
+
+    &__desc {
+        max-width: 445px;
+        width: 100%;
+        height: 100px;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+    }
+
+    &__btn {
+        padding-top: 40px;
+    }
+
+    &__imgone {
+        padding-top: 70%;
+    }
+
+    &__leftone {
+        background-image: url(../images/infarmation-bgone.png);
+        max-width: 445px;
+        width: 100%;
+        height: 445px;
+    }
+
+    &__lefttwo {
+        background-image: url(../images/infarmation-bgtwo.jpg);
+        max-width: 445px;
+        width: 100%;
+        height: 445px;
+    }
+
+    &__leftthre {
+        background-image: url(../images/infarmation-bgfre.png);
+        max-width: 445px;
+        width: 100%;
+        height: 445px;
+    }
+
+    .infor-two {
+        padding-left: 130px;
+    }
+}

@@ -1,0 +1,25 @@
+.button {
+    white-space: nowrap;
+    margin: 0;
+    padding: 14px 39px;
+    text-decoration: none;
+    background:  #FCB72B;
+    font-style: normal;
+    font-weight: bold;
+    color: #FEFCF7;
+    transition: 0.3s;
+    border: transparent;
+    font-size: 15px;
+    line-height: 25px;
+    border: 1px solid #FCB72B;
+}
+
+.button:hover{
+    background: #fff;
+    color: #FCB72B;
+}
+
+.button:active{
+    background: #FCB72B;
+    color: #fff;
+}

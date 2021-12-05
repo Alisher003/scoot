@@ -1,0 +1,43 @@
+.sitenav {
+    max-width: 1106px;
+    width: 100%;
+    height: 53px;
+
+    &__list {
+        white-space: nowrap;
+        list-style: none;
+        display: flex;
+        margin-left: 58px;
+        padding-top: 10px;
+    }
+
+    &__item{
+        padding-right: 32px;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+    }
+
+    &__link:hover {
+        opacity: 0.8;
+    }
+
+    &__link:active {
+        opacity: 0.6;
+    }
+}
+@media only screen and (max-width: 720px){
+    .header {
+        max-width: 768px;
+        width: 100%;
+        height: 96px;
+    }
+
+    .sitenav {
+        display: none;
+    }
+}
